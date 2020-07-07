@@ -1,0 +1,36 @@
+[
+  {
+    "open_id": "",
+    "role": {
+      "about": "陈博士的助理，陈博士的重大发现都在他的帮助下完成的",
+      "age": 0,
+      "album": "http://game.cdn.qingskj.com/spa/ZM98WeWzfp4zW84yMQjaWljiYww\u003d",
+      "checked": false,
+      "id": 50,
+      "mini_album": "http://game.cdn.qingskj.com/spa/46YA03DVSmZMtSyu7OQBeL_NZdU\u003d",
+      "name": "许助理",
+      "schecked": false,
+      "sex": 0,
+      "sid": 0,
+      "tall": 0,
+      "vote": true
+    }
+  },
+  {
+    "open_id": "",
+    "role": {
+      "about": "了解一切航空机器的使用和修理，为了避免这次火星探测之旅的意外而被派遣过来",
+      "age": 0,
+      "album": "http://game.cdn.qingskj.com/spa/ADMBGksBVOPHQl1ZNdGKs-NRmN4\u003d",
+      "checked": false,
+      "id": 51,
+      "mini_album": "http://game.cdn.qingskj.com/spa/OmlVOkNbgKjNnrMfh4X-tWFG7BA\u003d",
+      "name": "吴航天",
+      "schecked": false,
+      "sex": 0,
+      "sid": 0,
+      "tall": 0,
+      "vote": true
+    }
+  }
+]

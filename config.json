@@ -1,0 +1,20 @@
+{
+  "web_socket_host": "127.0.0.1:8080",
+  "web_socket_path": "/",
+  "server_open_id": "server_openid",
+  "server_host": ":8000",
+  "app_id": "wxa9cfedb5fad1edae",
+  "app_secret": "d4f42d329633543a8dc9184fc094a29e",
+  "db_timeout": 5000,
+  "db_addr": "tcp://127.0.0.1:2701",
+  "wx_token": "token",
+  "limit": 10,
+  "token_timeout": 600,
+  "im_sdk_appid": "",
+  "im_key": "",
+  "im_identifier": "",
+  "notify_url": "",
+  "mch_id": "",
+  "mch_key": "",
+  "pay_ip": ""
+}

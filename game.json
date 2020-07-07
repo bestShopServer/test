@@ -1,0 +1,170 @@
+{
+  "err": 0,
+  "msg": "",
+  "params": {
+    "story":"剧情url",
+    "about":"人物介绍",
+    "task":{
+      "main":"主线任务",
+      "side":[
+        {
+          "id":1,
+          "caption":"支线任务一",
+          "options":[
+            {
+              "id":1,
+              "option":"选项一"
+            },
+            {
+              "id":2,
+              "option":"选项二"
+            }
+          ]
+        },
+        {
+          "id":2,
+          "caption":"支线任务二",
+          "options":[
+            {
+              "id":1,
+              "option":"选项一"
+            },
+            {
+              "id":2,
+              "option":"选项二"
+            }
+          ]
+        }
+      ]
+    },
+    "ap":[10,8],
+    "clew":[
+      {
+        "round":1,
+        "key":{
+          "张三":{
+            "album":"http://game.cdn.qingskj.com/R49Rg4JB4i470df5LX1zcRXeKxlxj-xvPsrA8WWiCl0=",
+            "total_num":6,
+            "fetch_num":0,
+            "key_list":[
+              {
+                "id": 1,
+                "type": 1,
+                "ap": 2,
+                "content": "打开张三的这条线索会显示该内容",
+                "status": 0
+              },
+              {
+                "id": 2,
+                "type": 2,
+                "ap": 2,
+                "content": "http://www.bing.com",
+                "status": 0
+              },
+              {
+                "id": 3,
+                "type": 3,
+                "ap": 2,
+                "password": "123",
+                "content": "打开这条张三的这条线索会需要密码",
+                "status": 0
+              },
+              {
+                "id": 12,
+                "type": 1,
+                "ap": 2,
+                "content": "这是一条被自己打开过的线索",
+                "status": 0
+              },
+              {
+                "id": 10,
+                "type": 1,
+                "ap": 2,
+                "content": "这是一条被别人打开但未公开的线索",
+                "status": 0
+              },
+              {
+                "id": 11,
+                "type": 1,
+                "ap": 2,
+                "content": "这是一条公开线索",
+                "status": 0
+              }
+            ]
+          },
+          "现场线索":{
+            "album":"http://game.cdn.qingskj.com/UGxefuE098qhUy6BsquBsTiDa-_KMOHRWdNpk8LU8-U",
+            "total_num":1,
+            "fetch_num":0,
+            "key_list":[
+              {
+                "id": 4,
+                "type": 1,
+                "ap": 2,
+                "content": "这是一条有子线索的线索",
+                "status": 0,
+                "sub":[
+                  {
+                    "id": 5,
+                    "type": 1,
+                    "ap": 2,
+                    "content": "这是一条普通子线索",
+                    "status": 0
+                  },
+                  {
+                    "id": 6,
+                    "type": 2,
+                    "ap": 2,
+                    "content": "这是一条URL子线索",
+                    "status": 0
+                  },
+                  {
+                    "id": 7,
+                    "type": 3,
+                    "ap": 2,
+                    "password": "456",
+                    "content": "这是一条密码子线索",
+                    "status": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "round":2,
+        "key":{
+          "张三":{
+            "album":"http://game.cdn.qingskj.com/R49Rg4JB4i470df5LX1zcRXeKxlxj-xvPsrA8WWiCl0=",
+            "total_num":1,
+            "fetch_num":0,
+            "key_list":[
+              {
+                "id": 8,
+                "type": 1,
+                "ap": 2,
+                "content": "这是第二轮张三的线索",
+                "status": 0
+              }
+            ]
+          },
+          "现场线索":{
+            "album":"http://game.cdn.qingskj.com/UGxefuE098qhUy6BsquBsTiDa-_KMOHRWdNpk8LU8-U",
+            "total_num":1,
+            "fetch_num":0,
+            "key_list":[
+              {
+                "id": 9,
+                "type": 1,
+                "ap": 2,
+                "content": "这是第二轮的现场线索",
+                "status": 0
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
