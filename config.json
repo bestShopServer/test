@@ -10,7 +10,7 @@
   "wx_token": "token",
   "limit": 10,
   "token_timeout": 600,
-  "im_sdk_appid": "",
+  "im_sdk_appid": 1400278400,
   "im_key": "",
   "im_identifier": "",
   "notify_url": "",
