@@ -19,11 +19,10 @@ RUN apk add --no-cache tzdata && \
     echo "Asia/Shanghai" > /etc/timezone && \
 	mkdir -p /server/log && \
 	mkdir -p /server/static/fils && \
-	cp -r /tmpMake/main /server/ && \
-	cp -r /tmpMake/config /server
+	cp -r /tmpMake/main /server/ 
 
 WORKDIR /server
-
+COPY config.json .
 RUN rm -rf /tmpMake
 
 CMD ["./main"]
