@@ -3,7 +3,7 @@ module DetectiveMasterServer
 go 1.12
 
 require (
-	#gitee.com/sunki/gutils v0.0.0-20191108080947-d6d02e8f5b84
+	gitee.com/sunki/gutils v0.0.0-20191108080947-d6d02e8f5b84
 	github.com/boltdb/bolt v0.0.0-20180302180052-fd01fc79c553
 	github.com/dgrijalva/jwt-go v0.0.0-20190620180102-5e25c22bd5d6
 	github.com/gin-contrib/sse v0.0.0-20190301062529-5545eab6dad3
